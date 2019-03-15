@@ -5,7 +5,7 @@ Operations are:
 	getR():     Returns real part of complex number
 	getI():     Returns imaginary part of complex number
 	setR():     Sets real part of complex number
-	setI():		Sets imaginary part of complex number
+	setI():	    Sets imaginary part of complex number
 	add():      Adds two complex numbers
 	subtract(): Subtracts one complex number from another
 	multiply(): Multiplies two complex numbers
@@ -16,7 +16,7 @@ Operations are:
 	-  :	    Subtraction operator overloaded for Complex objects
 	*  :        Multiplication operator overloaded for Complex objects
 	/  :        Division operator overloaded for Complex objects
-	== :		Relational operator overloaded for Complex objects
+	== :	    Relational operator overloaded for Complex objects
 	abs():      Absolute value of Complex number
 
 Written by: Pavel Saladkou			
@@ -61,16 +61,16 @@ public:
 
 	 Precondition:  n is a valid Complex object
 	 Postcondition: the real part of the complex number has been set to the 
-				    constant value passed as a parameter
+		        constant value passed as a parameter
 	--------------------------------------------------------------------------*/
 	void setR (const double);
 	/*--------------------------------------------------------------------------
-     Name: setI()
-     Sets imaginary part of the complex number
+         Name: setI()
+         Sets imaginary part of the complex number
 
-     Precondition:  n is a valid Complex object
+         Precondition:  n is a valid Complex object
 	 Postcondition: the imaginary part of the complex number has been set to the
-				    constant value passed as a parameter
+		        constant value passed as a parameter
     --------------------------------------------------------------------------*/
 	void setI (const double);
 	/*--------------------------------------------------------------------------
